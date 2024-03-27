@@ -1,0 +1,338 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+    cursor: pointer;
+}
+
+button {
+font-weight: 550;
+font-size: 16px;
+cursor: pointer;
+border: none;
+text-align: center;
+font-style: normal;
+}
+
+
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 16px 16px 16px 16px;
+    top: 0;
+    right:0;
+    left: 0;
+    z-index: 2;
+    
+
+
+}
+.righttop{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    width: 240px;
+    
+
+}
+
+.logo1 {
+    width: 26px;
+    height: 26px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+
+}
+.pintfont {
+    width: 71px;
+    height: 24px;
+    margin-left: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: rgb(245, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+
+}
+
+.button1 {
+    width: 110px;
+    height: 48px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(60, 59, 59);
+    margin-left: 10px;
+}
+.button1:hover {
+background-color: rgb(212, 212, 212);
+
+}
+.midbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(243, 245, 245);
+    width: 761px;
+    height: 28px;
+    border-radius:30px; 
+    cursor:text;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    
+    
+}
+.fa-magnifying-glass{
+    background-color: rgb(243, 245, 245);
+    background-size: cover;
+    font-size: 15px;
+    color: rgba(70, 70, 70, 0.893);
+    font-weight: bold;
+    
+
+}
+
+.serbar {
+    background-color: rgb(243, 245, 245);
+    border: none;
+    font-size: 16px;
+    width: 750px;
+    height: 48px;
+    border-radius:30px; 
+}
+
+.midbar:hover {
+    background-color: rgb(236, 236, 236);
+}
+.serbar:hover{
+    background-color: rgb(236, 236, 236); 
+}
+.serchsymb {
+    background-color: rgb(233, 233, 233);
+    width: 48px;
+    height: 48px;
+    
+}
+
+.leftbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.log {
+    width: 77px;
+    height:48px;
+    border-radius: 30px;
+    margin-right: 15px;
+    font-style: normal;
+    font-stretch:100%;
+    color: rgb(60, 59, 59);
+    margin-left: 15px;
+    background-color: rgb(233, 233, 233);
+}
+
+.log:hover {
+    background-color: rgb(224, 224, 224);
+    
+}
+.sign{
+    width:82px;
+    height:48px ;
+    margin-right: 10px;
+    border-radius: 35px;
+    background-color: rgb(230, 0, 35);
+    color: white;
+}
+.sign:hover{
+    background-color:rgb(181, 1, 28);
+}
+.fa-chevron-down {
+
+    color: rgb(60, 59, 59);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+.fa-chevron-down:hover {
+    background-color: rgb(202, 202, 202);
+    border-radius: 50px;
+    
+}
+
+.secondhead { 
+display: flex;
+flex-direction: row;
+width: 100%;
+height:50px ; 
+margin-top: 67px;
+padding-left: 373px;
+padding-top: 40px;
+
+
+
+}
+.text2 {
+    display: block;
+    font-size: 36px;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+}
+.mainimg {
+display: flex;
+flex-direction: row;
+height: 300px;
+justify-content: space-between;
+margin: 80px 2px 0;
+cursor: pointer;
+
+
+}
+.firstpart{
+ background-image:url("containerhouse2.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 410px;
+ height: 258px;
+ border-radius: 20px;
+
+ }
+
+
+
+.aboveimg1 {
+font-size: 28px;
+color: rgb(255, 248, 248);
+display: block;
+font-weight: 600;
+text-align: left;
+text-size-adjust: 100%;
+cursor: pointer;
+margin: 150px 0 0 24px;
+}
+
+.buttonview1{
+width: 101px;
+height: 40px;
+background-color: rgb(233, 233, 233);
+border-radius: 20px;
+color: rgb(17, 17, 17);
+margin: 10px 0 0 24px;
+}
+.buttonview2 {
+    width: 63px;
+    height: 40px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    color: rgb(17, 17, 17);
+    margin: 10px 0 0 24px;
+
+}
+.buttonview3 {
+    width: 60px;
+    height: 40px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    color: rgb(17, 17, 17);
+    margin: 10px 0 0 24px;
+
+}
+.secondpart {
+    background-image: url("nail3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 410px;
+    height: 258px;
+    border-radius: 20px;
+}
+.thirddpart {
+    background-image: url("plant2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 410px;
+    height: 258px;
+    border-radius: 20px;
+
+}
+.secondpart:hover,.thirddpart:hover,img:hover ,.imgone:hover,
+.firstpart:hover{
+    opacity: .8;
+     z-index: 1;
+}
+
+
+.fontsmall {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(33, 25, 34);
+    text-align: center;
+}
+
+.flex10 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1247.33px;
+  height: 337px;
+  margin-top: 10px;
+
+}
+.imgone {
+    width:250px;
+    height:104px;
+    border-radius: 15px;
+    background-position: right;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.toptext{
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+}
+.buttonmore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttondown {
+    width: 63px;
+    height: 40px;
+    background-color: hsl(233, 233, 233);
+    border-radius: 20px;
+    color: rgb(17, 17, 17);
+}
+.bottommain{
+    display:grid;
+    margin-top: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+
+}
+
+
+.blockimg{
+    cursor: pointer;
+
+}
+
+
